@@ -19,43 +19,16 @@ int main()
 				AlreadyThere = true;
 				break;
 			}
-
-
 		}
 		if (!AlreadyThere)
 		{
 			A[i] = newRandomValue;
 			i++;
 		}
-
-
-
-
-
-
-
-
 	}
-
 	for (int i = 0; i < SIZE; i++)
 	{
 		cout << "\n A[" << i << "]=" << A[i];
 	}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 	return 0;
 }
